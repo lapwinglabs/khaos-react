@@ -1,7 +1,7 @@
 
 # khaos-react
 
-A Khaos template to start new react.js projects quickly.
+A [Khaos](http://github.com/segmentio/khaos) template to start new react.js projects quickly.
 
 ## Installation
 
