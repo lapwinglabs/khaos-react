@@ -1,0 +1,21 @@
+node_modules
+.DS_Store
+components
+build
+!*/db
+db
+
+npm-debug.log
+
+# local env files
+# for testing production
+# (overwrites .env)
+.env.*
+
+# project view folders
+project-views/functional
+
+#project page
+lr.sublime-project
+lr.sublime-workspace
+.env.local

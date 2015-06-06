@@ -1,0 +1,38 @@
+{
+  "name": "{{name}}",
+  "description": "{{description}}",
+  "version": "1.0.0",{{#private}}
+  "private": true,{{/private}}
+  "main": "index.js",
+  "scripts": {
+    "start": "make production",
+    "test": "make test"
+  },
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.x"
+  },
+  "precommit": "make lint",{{#mit}}
+  "license": "MIT",{{/mit}}
+  "dependencies": {
+    "classnames": "^2.1.2",
+    "debug": "^2.2.0",
+    "envify": "^3.4.0",
+    "envvar": "^1.0.0",
+    "localenv": "^0.2.2",
+    "normalize.css": "^3.0.3",
+    "react": "^0.13.3",
+    "roo": "^0.3.3",
+    "www-bundle": "0.0.2"
+  },
+  "devDependencies": {
+    "garnish": "^2.1.3",
+    "javascript-precommit": "0.0.8",
+    "node-dev": "^2.6.2",
+    "standard": "^4.0.1",
+    "wtch": "^3.2.1"
+  },
+  "browser": {
+    "react": "react/dist/react.js"
+  }
+}
