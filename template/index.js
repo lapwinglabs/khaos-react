@@ -17,7 +17,7 @@ envvar.number('PORT')
  * Module Dependencies
  */
 
-var debug = require('debug')('{app}');
+// var debug = require('debug')('{app}')
 var roo = module.exports = require('roo')(__dirname)
 var bundle = require('www-bundle')
 var port = process.env.PORT

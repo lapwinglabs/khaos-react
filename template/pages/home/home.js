@@ -14,8 +14,6 @@ export default class Home extends React.Component {
   }
 
   render () {
-    var props = this.props
-
     return (
       <div>hello world!</div>
     )
@@ -23,6 +21,5 @@ export default class Home extends React.Component {
 }
 
 if (typeof window !== 'undefined') {
-  console.log('hi');
   React.render(<Home />, document.getElementById('wrapper'))
 }
